@@ -5,7 +5,7 @@ from google.appengine.ext import ndb
 class User(ndb.Model):
     email = ndb.StringProperty()
     experience = ndb.IntegerProperty()
-    level = ndb.IntegerProperty(default=0)  # Alternative show in _level
+    level = ndb.IntegerProperty(default=0)  # Alternative shown in _level
     name = ndb.StringProperty()
 
     @property
