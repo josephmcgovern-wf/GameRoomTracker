@@ -11,3 +11,4 @@ app.secret_key = "SecretKey"
 toolbar = DebugToolbarExtension(app)
 
 home_views.setup_urls(app)
+print "setup complete"
